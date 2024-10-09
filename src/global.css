@@ -1,0 +1,7 @@
+/* shared tailwind.css except content script */
+
+@scope (.lexical-extension-style) {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+}
